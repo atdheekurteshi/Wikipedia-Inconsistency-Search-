@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Wikiplugin",
+  "description": "This plugin informes the user about data inconsistency and show's to the what have he found.",
+  "version": "1.0",
+   
+  
+  "permissions": [
+    "activeTab",
+    "tabs", "https://en.wikipedia.org/wiki/*",
+    "<all_urls>"
+   
+  ],
+ 
+
+  "browser_action": {
+    "default_icon": "img/icon.png",
+     //"popup": "popup.html"
+     "default_popup": "popup.html"
+  },
+ "content_security_policy": "script-src 'self'; jquery-alert.js;jquery.js;jquery.ui.draggable.js;jquery-2.2.3.min.js;jquery-2.2.3.js;jquery-confirm.js;jquery-confirm.min.js;  object-src 'self'"
+}

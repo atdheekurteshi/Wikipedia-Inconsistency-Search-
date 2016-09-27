@@ -1,0 +1,83 @@
+#firstDiv{
+	
+	width:1600px;
+	height:auto;
+	/*margin:0px auto;*/
+}
+#search
+{
+   width:100px;
+   height:16px;
+}
+#enpopulation {
+    width:50px; 
+    height:auto;
+    /*float:left;*/
+}
+#depopulation {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-top: -515px;
+    padding-left: 422px;
+}
+#frpopulation {
+    width: 50px;
+    height: auto;
+    margin-top: -550px;
+    float: left;
+    padding-left: 415px;
+   
+}
+#espopulation {
+    width:50px;
+    height:auto;
+    margin-top:-510px;
+    float: left;
+    padding-left: 385px;
+    /*padding-left: 80px;*/
+   
+}
+ul {
+   list-style:none;
+}
+.en {
+    float:left;
+}
+.de {
+
+    float:left;
+    padding-left:80px;
+}
+.fr {
+
+    float:left;
+    padding-left:80px;
+}
+.es {
+
+    float:left;
+    padding-left:80px;
+
+}
+.population {
+    font-style:italic;
+    color:lightgreen;
+    font-weight:200;
+}
+.popde {
+  
+    color:lightcoral;
+}
+.popfr{
+   color:lightcoral;
+}
+.popes {
+   color:lightcoral;
+}
+.active {
+}
+
+
+
+
